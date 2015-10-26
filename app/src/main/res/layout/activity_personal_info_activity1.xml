@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cerrid.instafitzproject.PersonalInfoActivity1">
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:scaleType="fitXY"
+        android:src="@drawable/header" />
+    <EditText
+        android:id="@+id/height"
+        android:layout_below ="@+id/header"
+        android:layout_width="@dimen/editbox_width" android:textSize="20dip"
+        android:layout_height="60dp" android:gravity="center"
+        android:layout_marginTop="80dp" android:textColorHint="@color/grey2"
+        android:hint="@string/height" android:background="@color/grey1"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:id="@+id/weight"
+        android:layout_below ="@+id/height"
+        android:layout_width="@dimen/editbox_width" android:textSize="20dip"
+        android:layout_height="60dp" android:gravity="center"
+        android:layout_marginTop="10dp" android:textColorHint="@color/grey2"
+        android:hint="@string/weight" android:background="@color/grey1"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:id="@+id/address"
+        android:layout_below ="@+id/weight"
+        android:layout_width="@dimen/editbox_width" android:textSize="20dip"
+        android:layout_height="60dp" android:gravity="center"
+        android:layout_marginTop="10dp" android:textColorHint="@color/grey2"
+        android:hint="@string/address" android:background="@color/grey1"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        />
+    <Button android:id="@+id/continueBtn"
+        android:layout_below="@+id/address" android:background="@color/grey1"
+        android:layout_width="400dp" android:layout_height="60dp"
+        android:layout_marginTop="145dp" android:textSize="20dip"
+        android:text="@string/continue1" android:textColor="@color/deepskyeblue"
+        android:textStyle="bold" android:onClick="gotoPersonalInfo2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+
+</RelativeLayout>

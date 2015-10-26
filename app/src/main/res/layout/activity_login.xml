@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cerrid.instafitzproject.LoginActivity">
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:scaleType="fitXY"
+        android:src="@drawable/header"/>
+    <AutoCompleteTextView android:id="@+id/username" android:layout_width="@dimen/editbox_width"
+        android:layout_height="60dp" android:hint="@string/prompt_username"
+        android:layout_marginLeft="20dp" android:layout_marginTop="@dimen/username_top_margin"
+        android:background="@color/grey1" android:gravity="center"
+        android:inputType="textEmailAddress" android:maxLines="1"
+        android:singleLine="true" android:textColorHint="@color/deepskyeblue"
+        android:layout_gravity="center|left|top"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_below ="@+id/username"
+        android:layout_width="@dimen/editbox_width"
+        android:layout_height="60dp" android:gravity="center"
+        android:layout_marginTop="10dp" android:textColorHint="@color/deepskyeblue"
+        android:hint="@string/prompt_password" android:background="@color/grey1"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+      />
+    <Button android:id="@+id/login_button"
+        android:layout_below="@+id/password" android:background="@color/grey1"
+        android:layout_width="400dp" android:layout_height="60dp"
+        android:layout_marginTop="30dp"  android:layout_margin="20dp"
+        android:text="@string/action_sign_in"
+        android:textStyle="bold" android:textColorHint="@color/deepskyeblue"/>
+    <Button android:id="@+id/signup_button" style="?android:attr/borderlessButtonStyle"
+        android:layout_below="@+id/login_button" android:background="@android:color/transparent"
+        android:layout_width="70dp" android:layout_height="60dp"
+        android:layout_marginTop="10dp" android:layout_marginLeft="150dp"
+        android:text="@string/sign_up" android:textColor="@color/grey1"
+        android:onClick="gotoRegisterPage"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

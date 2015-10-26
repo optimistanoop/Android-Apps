@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/signup_white"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:scaleType="fitXY"
+        android:src="@drawable/header" />
+
+    <TextView
+        android:id="@+id/topStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" android:layout_marginTop="10dp"
+        android:text="Top Style" android:textStyle="bold"
+        android:layout_below="@id/header" android:textSize="24dip"
+        android:textColor="@color/deepskyeblue" />
+
+    <Button
+        android:id="@+id/slimFit"
+        android:layout_width="@dimen/editbox_width"
+        android:layout_height="@dimen/editbox_height"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/topStyle"
+        android:background="@color/grey1"  android:layout_marginLeft="20dp"
+        android:gravity="center" android:textColorHint="@color/grey2"
+        android:hint="@string/slim_fit" android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/regular"
+        android:layout_width="@dimen/editbox_width"
+        android:layout_height="@dimen/editbox_height"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/slimFit"
+        android:background="@color/grey1"  android:layout_marginLeft="20dp"
+        android:gravity="center" android:textColorHint="@color/grey2"
+        android:hint="Regular" android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/relaxed"
+        android:layout_width="@dimen/editbox_width"
+        android:layout_height="@dimen/editbox_height"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/regular"
+        android:background="@color/grey1"  android:layout_marginLeft="20dp"
+        android:gravity="center" android:textColorHint="@color/grey2"
+        android:hint="Relaxed" android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/tall"
+        android:layout_width="@dimen/editbox_width"
+        android:layout_height="@dimen/editbox_height"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/relaxed"
+        android:background="@color/grey1"  android:layout_marginLeft="20dp"
+        android:gravity="center" android:textColorHint="@color/grey2"
+        android:hint="Tall" android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/continueBtn"
+        android:layout_width="@dimen/editbox_width"
+        android:layout_height="@dimen/editbox_height"
+        android:layout_below="@+id/tall"
+        android:background="@color/grey1"
+        android:gravity="center" android:textSize="20dip"
+        android:hint="Continue"
+        android:layout_marginTop="95dp"
+        android:textColorHint="@color/deepskyeblue"
+        android:clickable="true" android:textStyle="bold"
+        android:onClick="moveToBottomStyle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+</RelativeLayout>

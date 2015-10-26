@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:scaleType="fitXY"
+        android:src="@drawable/header" />
+
+    <TextView
+        android:id="@+id/fitInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="10dp"
+        android:text="Fit Info" android:textStyle="bold" android:textSize="24dip"
+        android:layout_below="@id/header" android:gravity="center"
+        android:textColor="@color/deepskyeblue" />
+
+    <EditText
+        android:id="@+id/sleeve"
+        android:layout_width="@dimen/editbox_width"
+        android:layout_height="@dimen/editbox_height"
+        android:layout_marginTop="20dp" android:textSize="22dip"
+        android:maxLines="1" android:singleLine="true"
+        android:background="@color/grey1" android:layout_marginLeft="20dp"
+        android:gravity="center" android:textColorHint="@color/grey2"
+        android:hint="Sleeve(Inches)"
+        android:layout_below="@id/fitInfo"
+        />
+
+    <EditText
+        android:id="@+id/neck"
+        android:layout_width="@dimen/editbox_width"
+        android:layout_height="@dimen/editbox_height"
+        android:layout_marginTop="10dp" android:textSize="22dip"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_below="@+id/sleeve"
+        android:background="@color/grey1" android:layout_marginLeft="20dp"
+        android:gravity="center" android:textColorHint="@color/grey2"
+        android:hint="Neck(Inches)"
+        />
+
+    <EditText
+        android:id="@+id/chest"
+        android:layout_width="@dimen/editbox_width" android:textSize="22dip"
+        android:layout_height="@dimen/editbox_height"
+        android:layout_marginTop="10dp"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_below="@+id/neck"
+        android:background="@color/grey1" android:layout_marginLeft="20dp"
+        android:gravity="center" android:textColorHint="@color/grey2"
+        android:hint="Chest(Inches)"
+        />
+
+
+    <EditText
+        android:id="@+id/waist"
+        android:layout_width="@dimen/editbox_width"
+        android:layout_height="@dimen/editbox_height"
+        android:layout_marginTop="10dp" android:textSize="22dip"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_below="@+id/chest"
+        android:background="@color/grey1"  android:layout_marginLeft="20dp"
+        android:gravity="center" android:textColorHint="@color/grey2"
+        android:hint="Waist(Inches)"
+        />
+
+
+    <Button
+        android:id="@+id/continueBtn"
+        android:layout_width="@dimen/editbox_width"
+        android:layout_height="@dimen/editbox_height"
+        android:layout_below="@+id/waist"
+        android:background="@color/grey1"
+        android:gravity="center"
+        android:hint="Continue"
+        android:layout_marginTop="95dp" android:textSize="22dip"
+        android:textColorHint="@color/deepskyeblue"
+        android:clickable="true" android:textStyle="bold"
+        android:onClick="moveToTopStyle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+</RelativeLayout>

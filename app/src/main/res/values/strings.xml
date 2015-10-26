@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">InstaFitz</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="fName">First Name</string>
+    <string name="lName">Last Name</string>
+    <string name="email">Email ID</string>
+    <string name="phone">Phone Number</string>
+    <string name="reenter_pwd">Re-enter Password</string>
+    <string name="continue1">Continue</string>
+    <string name="title_activity_personal_info_activity1">PersonalInfoActivity1</string>
+    <string name="title_activity_personal_info_activity2">PersonalInfoActivity2</string>
+    <string name="height">Height(Inches)</string>
+    <string name="weight">Weight(lbs)</string>
+    <string name="address">Address</string>
+    <string name="salary">Salary Range</string>
+    <string name="car_model">Car Model</string>
+    <string name="payment">Payment Gateway Preferences</string>
+    <string name="profession">Profession</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="info">Call 800-818-0588 for new order and status of current order.</string>
+    <string name="title_activity_fit_info">FitInfo</string>
+    <string name="title_activity_top_style">TopStyle</string>
+    <string name="title_activity_bottom_style">BottomStyle</string>
+    <string name="title_activity_color_prefrences">ColorPrefrences</string>
+    <string name="slim_fit">Slim Fit</string>
+    <string name="title_activity_order_status">OrderStatus</string>
+</resources>
