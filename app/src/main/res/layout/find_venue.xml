@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <com.google.android.gms.maps.MapView android:id="@+id/mapview"
+        android:layout_width="fill_parent" 
+        android:layout_height="400dp" />
+
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp">
+    <ImageView
+        android:id="@+id/cricket"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:onClick="findVenue"
+        android:src="@drawable/cricket"/>
+
+    <ImageView
+        android:id="@+id/badminton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:onClick="findVenue"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/tennis"/>
+
+    <ImageView
+        android:id="@+id/squash"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:onClick="findVenue"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/badminton"/>
+
+</LinearLayout>
+
+</LinearLayout>
