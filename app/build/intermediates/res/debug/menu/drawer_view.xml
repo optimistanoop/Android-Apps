@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Home" />
+        <!--<item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_event"
+            android:title="All Employee" />-->
+        <item
+            android:id="@+id/all_employees"
+            android:icon="@drawable/ic_headset"
+            android:title="All Employees" />
+        <item
+            android:id="@+id/push_notification"
+            android:icon="@drawable/ic_forum"
+            android:title="Push notification" />
+        <item
+            android:icon="@drawable/ic_dashboard"
+            android:title="About Us" />
+        <item
+            android:icon="@drawable/ic_forum"
+            android:title="Contact Us" />
+    </group>
+
+    <item android:title="">
+        <menu>
+
+        </menu>
+    </item>
+
+</menu>
+<!-- From: file:/home/anoop/AndroidStudioProjects/cUtil-2015-08-27/cUtil/app/src/main/res/menu/drawer_view.xml -->

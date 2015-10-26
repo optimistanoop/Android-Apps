@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout">
+
+            <TextView
+                android:id="@+id/labelPushNotification"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/pushNotification"
+                android:textSize="@dimen/editbox_textSize"
+                android:layout_marginLeft="@dimen/marginLeft_editBox"
+                android:layout_marginTop="@dimen/empid_top_from"/>
+
+            <EditText
+                android:id="@+id/pushNotificaton"
+                android:layout_width="@dimen/editBox_width"
+                android:layout_height="@dimen/editBox_height"
+                android:textColorHint="@color/darkGray"
+                android:layout_marginLeft="@dimen/marginLeft_editBox"
+                android:layout_below="@+id/labelPushNotification"
+                android:maxLines="1" />
+
+
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="@dimen/Button_width"
+                android:layout_height="@dimen/Button_height"
+                android:layout_below = "@+id/pushNotificaton"
+                android:background="@color/gray"
+                android:textColorHint="@color/white"
+                android:layout_marginLeft="@dimen/Button_marginLeft"
+                android:hint="@string/submit"
+                android:gravity="center"
+                android:textSize="@dimen/button_textSize"
+                android:layout_marginTop="@dimen/marginTop_editBox"
+                android:layout_marginBottom="10dp"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
+<!-- From: file:/home/anoop/AndroidStudioProjects/cUtil-2015-08-27/cUtil/app/src/main/res/layout/push_notification_fragment.xml -->

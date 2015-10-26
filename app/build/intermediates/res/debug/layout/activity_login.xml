@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anoop.navdra.Login">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways" >
+    </android.support.v7.widget.Toolbar>
+
+    <AutoCompleteTextView android:id="@+id/username"
+        android:layout_width="@dimen/width_editbox_button_loginpage"
+        android:layout_height="60dp"
+        android:hint="UserID"
+        android:layout_marginLeft="@dimen/username_password_signin_marginleft"
+        android:layout_marginTop="@dimen/username_marginTop"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_gravity="center|left|bottom"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_below ="@+id/username"
+        android:layout_width="@dimen/width_editbox_button_loginpage"
+        android:layout_height="@dimen/height_editbox_button_loginpage"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/password_marginTop"
+        android:hint="Password"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/username_password_signin_marginleft" />
+
+        <RelativeLayout
+        android:id="@+id/spinnerlayout"
+        android:layout_below="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="@dimen/width_editbox_button_loginpage"
+            android:layout_height="@dimen/spinner_marginheight"
+            android:layout_marginLeft="@dimen/spinner_marginleft"
+            android:layout_marginRight="@dimen/spinner_marginright"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/spinner_marginTop">
+
+            <Spinner
+                android:id="@+id/user_role"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:entries="@array/login_role"
+                android:padding="5dp"
+                android:spinnerMode="dropdown"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|right"
+                android:background="@drawable/arrowspinner"
+                android:contentDescription="@string/app_name" />
+        </FrameLayout>
+    </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_below="@+id/spinnerlayout"
+            android:layout_width="@dimen/width_editbox_button_loginpage"
+            android:layout_height="@dimen/height_editbox_button_loginpage"
+            android:layout_marginLeft="@dimen/username_password_signin_marginleft"
+            android:text="@string/signin_button_text"
+            android:textStyle="bold"
+            android:onClick="validateUser"
+            android:clickable="true"
+            android:layout_marginTop="@dimen/signin_button_margintop"/>
+
+</RelativeLayout>
+<!-- From: file:/home/anoop/AndroidStudioProjects/cUtil-2015-08-27/cUtil/app/src/main/res/layout/activity_login.xml -->

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="detail_backdrop_height">256dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_margin_top">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_item_avatar_size">40dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_top">0dp</dimen>
+
+    <!--added by suma for empl detail ntegration-->
+
+
+    <dimen name="empid_top_from" >20dp</dimen>
+    <dimen name = "margin_top_textview">8dp</dimen>
+    <dimen name = "editBox_width">320dp</dimen>
+    <dimen name = "editBox_height">40dp</dimen>
+    <dimen name = "marginTop_editBox">10dp</dimen>
+    <dimen name = "marginLeft_editBox">20dp</dimen>
+    <dimen name = "Button_width">320dp</dimen>
+    <dimen name = "Button_height">40dp</dimen>
+    <dimen name="Button_marginLeft">20dp</dimen>
+    <dimen name = "editbox_textSize">10dp</dimen>
+    <dimen name = "button_textSize">23dp</dimen>
+    <dimen name = "titleAlign">100dp</dimen>
+    <dimen  name = "marginTop_welcomePageText">30dp</dimen>
+    <dimen name = "textsize_in_welcomepage">35dp</dimen>
+    <dimen name = "margintop_loginbutton_welcomepage">180dp</dimen>
+    <dimen name = "width_editbox_button_loginpage">300dp</dimen>
+    <dimen name = "height_editbox_button_loginpage">60dp</dimen>
+    <dimen name = "username_marginTop">70dp</dimen>
+    <dimen name = "username_password_signin_marginleft">40dp</dimen>
+    <dimen name = "password_marginTop">10dp</dimen>
+    <dimen name = "signin_button_margintop">60dp</dimen>
+    <dimen name = "spinner_marginheight">45dp</dimen>
+    <dimen name = "spinner_marginTop">40dp</dimen>
+    <dimen name = "spinner_marginleft">40dp</dimen>
+    <dimen name = "spinner_marginright">10dp</dimen>
+    <dimen name = "loginbutton_width">295dp</dimen>
+    <dimen name = "loginbutton_height">60dp</dimen>
+    <dimen name ="loginbutton_marginleft">40dp</dimen>
+
+     </resources>
+
+
