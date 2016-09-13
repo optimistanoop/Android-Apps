@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Job Finder</string>
+
+    <string-array name="job_titles">
+        <item>FlipKart Warehouse Recruit</item>
+        <item>Mintree Junior Software Developer</item>
+        <item>LNT construction helper</item>
+        <item>Bangalore Metropolitan Transportation Corporation worker</item>
+        <item>BSNL network engineer</item>
+        <item>Honda Mechanical Engineer</item>
+        <item>Sony Electrical Engineer</item>
+        <item>Set up event helper</item>
+    </string-array>
+
+    <string-array name="job_field">
+        <item>Retail</item>
+        <item>Software Development</item>
+        <item>Construction</item>
+        <item>Transportation</item>
+        <item>Network</item>
+        <item>Mechanical Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Unskilled</item>
+    </string-array>
+
+    <integer-array name="job_prices">
+        <item>25000</item>
+        <item>25000</item>
+        <item>15000</item>
+        <item>20000</item>
+        <item>15000</item>
+        <item>20000</item>
+        <item>22000</item>
+        <item>8000</item>
+    </integer-array>
+
+    <string name="job_info">Finding a job may be one of the hardest and most stressful things you will have to do. Unlike applying to schools, finding a job requires much more initiative on your part, if only because of the large number of opportunities and choices involved. But the process is the same for everyone and it\'s mainly a matter of perseverance. If you plan ahead and take advantage of internship, research, and other opportunities, you will be in a better position to convince employers you have what they need. The fact that everyone needs to do this, usually several times, means there is an enormous range of help available, from job search web sites to career counselors.
+
+The College of Science and Engineering provides Career Center for Science and Engineering, which has information on the job search process and arranges interviews with employers that visit campus. Make sure you don\'t forget about the larger picture of how your career relates to your life, see for example Optimum Strategies for Creativity and Longevity (pdf).
+
+GoldPass is the U of M\'s online database to help connect students and alumni with employers, volunteer organizations, and internships across the country.
+
+There is additional information including search site links and job listings on our career information page (current students only).
+
+Careers
+Liftoff: Careers In Satellite, the World\'s First and Most Successful Space Industry (PDF) information from Society of Satellite Professionals International
+AIAA Career Center has many career development workshops on career building.
+ASME has an Early Career Engineers Page
+Job Search Tips
+Know what the company does and how you would fit in.
+Be prepared to explain why you are interested in the position.
+Dress as the employer expects, save showing your individuality for outside of work.
+Don\'t post things on web sites about yourself you don\'t want employers to read, because they know how to use Google too.
+Make sure your resume (see outline below) is completely accurate.
+Ask before you give out anyone\'s name as a reference.
+Don\'t expect your first job to be your dream job, first jobs last an average of 3 years.
+Plan on continually searching for a new job. The worst that can happen is that you get a better job.
+Register with job search sites (Monster.com etc.).
+Check potential employer web pages frequently as job postings appear and disappear quickly.
+Start with the companies you really want to work for (prime contractors like Boeing, Lockheed Martin, government agencies NASA, JPL). Then look up the major suppliers/subcontractors to those companies (Honeywell avionics, GE propulsion, United Technologies--Pratt and Whitney, etc., and work your way down to landing gear, hydraulic actuator companies). If you can\'t get a job at the top, start lower down the supply chain and work your way up.</string>
+    <string name="title_activity_map">Map</string>
+
+</resources>
