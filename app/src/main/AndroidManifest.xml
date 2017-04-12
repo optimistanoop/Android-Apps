@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cerrid.instafitzproject" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".FitInfoPojo"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".PersonalInfoActivity1"
+            android:label="@string/title_activity_personal_info_activity1" >
+        </activity>
+        <activity
+            android:name=".PersonalInfoActivity2"
+            android:label="@string/title_activity_personal_info_activity2" >
+        </activity>
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name=".FitInfo"
+            android:label="@string/title_activity_fit_info" >
+        </activity>
+        <activity
+            android:name=".TopStyle"
+            android:label="@string/title_activity_top_style" >
+        </activity>
+        <activity
+            android:name=".BottomStyle"
+            android:label="@string/title_activity_bottom_style" >
+        </activity>
+        <activity
+            android:name=".ColorPrefrences"
+            android:label="@string/title_activity_color_prefrences" >
+        </activity>
+        <activity
+            android:name=".OrderStatus"
+            android:label="@string/title_activity_order_status" >
+        </activity>
+    </application>
+
+</manifest>

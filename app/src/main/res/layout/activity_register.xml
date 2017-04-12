@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.cerrid.instafitzproject.RegisterActivity">
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:scaleType="fitXY"
+        android:src="@drawable/header"/>
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_below ="@+id/header"
+        android:layout_width="@dimen/editbox_width" android:textSize="20dip"
+        android:layout_height="60dp" android:gravity="center"
+        android:layout_marginTop="5dp" android:textColorHint="@color/grey2"
+        android:hint="@string/fName" android:background="@color/grey1"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_below ="@+id/firstName"
+        android:layout_width="@dimen/editbox_width" android:textSize="20dip"
+        android:layout_height="60dp" android:gravity="center"
+        android:layout_marginTop="10dp" android:textColorHint="@color/grey2"
+        android:hint="@string/lName" android:background="@color/grey1"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:id="@+id/emailId"
+        android:layout_below ="@+id/lastName"
+        android:layout_width="@dimen/editbox_width" android:textSize="20dip"
+        android:layout_height="60dp" android:gravity="center"
+        android:layout_marginTop="10dp" android:textColorHint="@color/grey2"
+        android:hint="@string/email" android:background="@color/grey1"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_below ="@+id/emailId"
+        android:layout_width="@dimen/editbox_width" android:textSize="20dip"
+        android:layout_height="60dp" android:gravity="center"
+        android:layout_marginTop="10dp" android:textColorHint="@color/grey2"
+        android:hint="@string/phone" android:background="@color/grey1"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_below ="@+id/phone"
+        android:layout_width="@dimen/editbox_width" android:textSize="20dip"
+        android:layout_height="60dp" android:gravity="center"
+        android:layout_marginTop="10dp" android:textColorHint="@color/grey2"
+        android:hint="@string/prompt_password" android:background="@color/grey1"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:id="@+id/reenter_password"
+        android:inputType="textPassword"
+        android:layout_below ="@+id/password"
+        android:layout_width="@dimen/editbox_width" android:textSize="20dip"
+        android:layout_height="60dp" android:gravity="center"
+        android:layout_marginTop="10dp" android:textColorHint="@color/grey2"
+        android:hint="@string/reenter_pwd" android:background="@color/grey1"
+        android:maxLines="1" android:singleLine="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        />
+    <Button android:id="@+id/continueBtn"
+        android:layout_below="@+id/reenter_password" android:background="@color/grey1"
+        android:layout_width="@dimen/editbox_width" android:layout_height="60dp"
+        android:layout_marginTop="10dp" android:layout_marginLeft="20dp"
+        android:onClick="gotoPersonalInfo1" android:textSize="20dip"
+        android:text="@string/continue1" android:textColor="@color/deepskyeblue"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey1">#D3D3D3</color>
+    <color name="deepskyeblue">#00bfff</color>
+    <color name="grey2">#bebebe</color>
+
+
+    <!--added by anoop-->
+    <color name="light_green"> #84efdd</color>
+    <color name="milky_white"> #ffffff</color>\
+    <color name="signup_white"> #F0F0F0</color>
+    <color name="heighlight_green"> #A4F48A</color>
+    <color name="gray_backrground"> #E8E8E8</color>
+    <color name="blue_continue">#3300FF</color>
+
+
+
+</resources>

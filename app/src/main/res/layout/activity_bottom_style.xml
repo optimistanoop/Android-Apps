@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/signup_white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:scaleType="fitXY"
+        android:src="@drawable/header" />
+
+    <TextView
+        android:id="@+id/bottomStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" android:textSize="24dip"
+        android:text="Bottom Style" android:layout_marginTop="10dp"
+        android:layout_below="@id/header"  android:textStyle="bold"
+        android:textColor="@color/deepskyeblue"/>
+
+    <Button
+        android:id="@+id/bottomRelaxed"
+        android:layout_width="@dimen/editbox_width"
+        android:layout_height="@dimen/editbox_height"
+        android:layout_marginTop="20dp"
+        android:textSize="20dip"
+        android:layout_below="@+id/bottomStyle"
+        android:background="@color/grey1"  android:layout_marginLeft="20dp"
+        android:gravity="center" android:textColorHint="@color/grey2"
+        android:hint="Relaxed"
+        />
+    <Button
+        android:id="@+id/teparedFit"
+        android:layout_width="@dimen/editbox_width"
+        android:layout_height="@dimen/editbox_height"
+        android:layout_marginTop="10dp"
+        android:textSize="20dip"
+        android:layout_below="@+id/bottomRelaxed"
+        android:background="@color/grey1"  android:layout_marginLeft="20dp"
+        android:gravity="center" android:textColorHint="@color/grey2"
+        android:hint="Tapered Fit"
+        />
+
+    <Button
+        android:id="@+id/lowWaist"
+        android:layout_width="@dimen/editbox_width"
+        android:layout_height="@dimen/editbox_height"
+        android:layout_marginTop="10dp"
+        android:textSize="20dip"
+        android:layout_below="@+id/teparedFit"
+        android:background="@color/grey1"  android:layout_marginLeft="20dp"
+        android:gravity="center" android:textColorHint="@color/grey2"
+        android:hint="Low waist"
+        />
+    <Button
+        android:id="@+id/continueBtn"
+        android:layout_width="@dimen/editbox_width"
+        android:layout_height="@dimen/editbox_height"
+        android:layout_below="@+id/lowWaist"
+        android:background="@color/grey1"
+        android:gravity="center"
+        android:hint="Continue" android:textSize="20dip"
+        android:layout_marginTop="165dp"
+        android:textColorHint="@color/deepskyeblue"
+        android:clickable="true" android:textStyle="bold"
+        android:onClick="moveToColorPrefrences"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+</RelativeLayout>
