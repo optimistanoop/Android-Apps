@@ -17,11 +17,14 @@ Pre-requisites
 
 fitz360 is an online tailoring app used for submitting  details for cloths to be stiched. 
 
+# sportscafe
 
-# zeLadder
-
-zeLadder is sports community social networking app , where we can challenge anyone in any specific sport.
+This is simple sports cafe app, which internally runs sportscafe mobile site.
 
 # jobfinder
 
 This is a job finder app, having some bugs. Trying to fix bugs will led to a good understanding of android development fundamentals.
+
+# zeLadder
+
+zeLadder is sports community social networking app , where we can challenge anyone in any specific sport.
